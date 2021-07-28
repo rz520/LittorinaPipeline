@@ -1,0 +1,6 @@
+#This is an example of ld_files.list, which contains absolute path of ld files list. 
+#This is the input file of fit_LDdecay.R
+
+/rds/general/user/rz520/ephemeral/project/crab_c1_sub.ld
+/rds/general/user/rz520/ephemeral/project/hybrid_c1_sub.ld
+/rds/general/user/rz520/ephemeral/project/wave_c1_sub.ld
