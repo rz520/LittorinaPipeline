@@ -1,5 +1,5 @@
 # Littorina population genetic analysis README
-### Littorina low coverage whole genome sequencing data analysis with R and ngsTools such as angsd
+Littorina low coverage whole genome sequencing data analysis with R and ngsTools such as angsd
 
 ## Discription
 This is a union of R scripts and shell scripts when analysing Littorina low coverage whole genome sequencing data. 
@@ -15,6 +15,7 @@ Shell, R
 
 ## Dependencies
 Softwares: samtools, ANGSD, PCAngsd, ngsAdmix, ngsLD
+
 R packages: ggplot2, reshape2, tidyverse, readr, optparse, tools, plyr, stringr, gtools, LDheatmap
 
 ## Installation
@@ -28,7 +29,7 @@ There are some necessary inputs data of scripts including some intermediate outp
 Some example pictures.
 
 ### Scripts
-**Please remember to run these shell scripts in scripts directory.**  
+**Please remember to run these shell scripts in a proper directory due to relative path of input files.**  
 - all_pcangsd.sh: use PCAngsd to infer genomic covariance matrix from genotype likelihood data estimated by angsd. (use all_snp_pca.sh output as input)
 - all_snp_pca.sh: use angsd to estimate genotype likelihood with bam files and then calculate genetic covariance matrix.
 - angsd_snp_crab.sh: Use angsd to estimate genotype likelihood and SNP position in crab ecotype.
